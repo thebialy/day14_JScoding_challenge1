@@ -1,3 +1,7 @@
+/////////////////////////////////
+// freeCodeCamp JS Challenges //
+///////////////////////////////
+
 // Challenge 1
 // Reverse a String
 
@@ -42,3 +46,19 @@ const palindrome = (word) => {
 console.log(palindrome("eye"))
 console.log(palindrome("hello"))
 
+// Challenge 4
+// Longest Word Check
+
+const findLongestWord = (string) => {
+    let words = string.split(" ");
+    var longest = "";
+
+    for (let word of words) {
+        if(word.length > longest.length) {
+            longest = word
+        }
+    }
+    console.log(longest)
+}
+
+findLongestWord("The quick brown fox jumped over the lazy dog")
