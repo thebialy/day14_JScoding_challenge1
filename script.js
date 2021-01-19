@@ -25,4 +25,20 @@ const factorialize = (x) => {
     console.log(result) 
 }
 
-factorialize(10)
+factorialize(7)
+
+// Challenge 3
+// Palindrome Check
+
+const palindrome = (word) => {
+    const reversed = word.split("").reverse().join("");
+    if (reversed === word) {
+        return true
+    } else {
+        return false
+    }
+}
+
+console.log(palindrome("eye"))
+console.log(palindrome("hello"))
+
