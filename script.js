@@ -47,7 +47,7 @@ console.log(palindrome("eye"))
 console.log(palindrome("hello"))
 
 // Challenge 4
-// Longest Word Check
+// Longest Word  Check
 
 const findLongestWord = (string) => {
     let words = string.split(" ");
@@ -62,3 +62,16 @@ const findLongestWord = (string) => {
 }
 
 findLongestWord("The quick brown fox jumped over the lazy dog")
+
+// Challenge 5
+// Title Cast a Sentence
+const titleCase = (string) => {
+    const words = string.toLowerCase().split(" ")
+
+    for (let i=0; i < words.length; i++) {
+        words[i] = words[i][0].toUpperCase() + words[i].slice(1)
+    }
+    console.log(words.join(" ")) 
+}
+titleCase("I'm a little tea pot")
+
