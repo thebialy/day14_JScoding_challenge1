@@ -43,8 +43,8 @@ const palindrome = (word) => {
     }
 }
 
-console.log(palindrome("eye"))
-console.log(palindrome("hello"))
+palindrome("eye")
+palindrome("hello")
 
 // Challenge 4
 // Longest Word  Check
