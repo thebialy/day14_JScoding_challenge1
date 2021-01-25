@@ -26,7 +26,7 @@ const factorialize = (x) => {
     for (let i=1; i<=x; i++) {
         result = result * i
     }
-    console.log(result) 
+    return result
 }
 
 factorialize(7)
