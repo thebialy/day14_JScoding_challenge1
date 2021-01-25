@@ -15,7 +15,7 @@ const reverseString = (word) => {
 
 console.log(reverseString("love coding"));
 
-// simpler way
+// alternative way
 // word.split("").reverse().join("")
 
 // Challenge 2
