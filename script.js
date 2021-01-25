@@ -13,7 +13,7 @@ const reverseString = (word) => {
     return reverseString
 }
 
-console.log(reverseString("love coding"));
+reverseString("love coding")
 
 // alternative way
 word.split("").reverse().join("")
@@ -58,7 +58,7 @@ const findLongestWord = (string) => {
             longest = word
         }
     }
-    console.log(longest)
+    return longest
 }
 
 findLongestWord("The quick brown fox jumped over the lazy dog")
@@ -71,7 +71,7 @@ const titleCase = (string) => {
     for (let i=0; i < words.length; i++) {
         words[i] = words[i][0].toUpperCase() + words[i].slice(1)
     }
-    console.log(words.join(" ")) 
+    words.join(" ")
 }
 titleCase("I'm a little tea pot")
 
