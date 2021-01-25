@@ -16,7 +16,7 @@ const reverseString = (word) => {
 console.log(reverseString("love coding"));
 
 // alternative way
-// word.split("").reverse().join("")
+word.split("").reverse().join("")
 
 // Challenge 2
 // Factorialize a Number
