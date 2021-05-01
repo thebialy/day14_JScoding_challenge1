@@ -66,6 +66,7 @@ findLongestWord("The quick brown fox jumped over the lazy dog")
 
 // Challenge 5
 // Title Case a Sentence (first letter captialized on every word)
+
 const titleCase = (string) => {
     const words = string.toLowerCase().split(" ")
 
